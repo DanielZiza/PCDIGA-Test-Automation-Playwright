@@ -17,7 +17,6 @@ This repository contains automated tests for the **PCDIGA** website using **Play
 ## 🔧 How to Run the Tests  
 
 ### 1. Clone this repository  
-    ```sh
     git clone https://github.com/DanielZiza/PCDIGA-Test-Automation-Playwright.git
     cd PCDIGA-Test-Automation-Playwrigh
 
