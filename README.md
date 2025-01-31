@@ -1,41 +1,38 @@
-PCDIGA Test Automation with Playwright
+# 🖥️ PCDIGA Test Automation with Playwright  
 
-This repository contains automated tests for the PCDIGA website using Playwright. The goal of this project is to ensure the quality and stability of the platform's functionalities through efficient and reliable automated tests.
-🚀 Technologies Used
+This repository contains automated tests for the **PCDIGA** website using **Playwright**. The goal of this project is to ensure the quality and stability of the platform's functionalities through efficient and reliable automated tests.  
 
-    Playwright – Test automation framework
-    TypeScript – Programming language
-    Jest – Testing framework
-    Allure Report – Report generation
+## 🚀 Technologies Used  
+- **[Playwright](https://playwright.dev/)** – Test automation framework  
+- **[TypeScript](https://www.typescriptlang.org/)** – Programming language  
+- **[Jest](https://jestjs.io/)** – Testing framework  
+- **[Allure Report](https://github.com/allure-framework/allure2)** – Report generation  
 
-📌 Test Features
+## 📌 Test Features  
+✅ End-to-end (E2E) functional tests  
+✅ Purchase flow validation  
+✅ Login and registration tests  
+✅ Detailed report generation  
 
-✔️ End-to-end (E2E) functional tests
-✔️ Purchase flow validation
-✔️ Login and registration tests
-✔️ Detailed report generation
-🔧 How to Run the Tests
+## 🔧 How to Run the Tests  
 
-    Clone this repository:
+### 1. Clone this repository  
+    ```sh
+    git clone https://github.com/DanielZiza/PCDIGA-Test-Automation-Playwright.git
+    cd PCDIGA-Test-Automation-Playwrigh
 
-git clone https://github.com/DanielZiza/PCDIGA-Test-Automation-Playwright.git
-cd PCDIGA-Test-Automation-Playwright
+### 2. Install dependecies
+    npm install
 
-Install dependencies:
+### 3. Run the tests
+    npx playwright test
 
-npm install
-
-Run the tests:
-
-npx playwright test
-
-To view the Allure report:
-
+### 3. To view the Allure report
     npx allure serve allure-results
 
-📄 Project Structure
+## 📂 Project Structure
 
-📂 PCDIGA-Test-Automation-Playwright  
+ 📂 PCDIGA-Test-Automation-Playwright  
  ├── 📂 tests             # Playwright test cases  
  ├── 📂 reports           # Execution reports  
  ├── 📂 config            # Configurations and fixtures  
@@ -43,6 +40,6 @@ To view the Allure report:
  ├── playwright.config.ts # Playwright configuration  
  └── README.md           # Project documentation  
 
-📢 Contribution
+## 📢 Contribution
 
-Feel free to contribute with improvements, suggestions, or open issues to discuss new test scenarios.
+💡 Feel free to contribute with improvements, suggestions, or open issues to discuss new test scenarios.
