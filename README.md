@@ -26,8 +26,8 @@ This repository contains automated tests for the **PCDIGA** website using **Play
 ### 3. Run the tests
     npx playwright test
 
-### 3. To view the Allure report
-    npx allure serve allure-results
+### 3. To view the report in HTML
+    npx playwright show-report
 
 ## 📂 Project Structure
 
